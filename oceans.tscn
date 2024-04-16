@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bwhpbg6i14ksi"]
+
+[ext_resource type="Script" path="res://data/seamaker2.gd" id="1_j04tj"]
+
+[node name="Node3D" type="Node3D"]
+script = ExtResource("1_j04tj")

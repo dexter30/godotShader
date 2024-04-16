@@ -1,0 +1,11 @@
+Model Information:
+* title:	Houshou marine (hololive)
+* source:	https://sketchfab.com/3d-models/houshou-marine-hololive-d8c9e1f56fa14b86be871c238aa2448b
+* author:	chained_tan (https://sketchfab.com/ch_fren)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Houshou marine (hololive)" (https://sketchfab.com/3d-models/houshou-marine-hololive-d8c9e1f56fa14b86be871c238aa2448b) by chained_tan (https://sketchfab.com/ch_fren) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

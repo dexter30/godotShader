@@ -1,0 +1,121 @@
+[gd_scene load_steps=14 format=3 uid="uid://h8vslrc51v45"]
+
+[ext_resource type="PackedScene" uid="uid://bwhpbg6i14ksi" path="res://oceans.tscn" id="1_61vc2"]
+[ext_resource type="Script" path="res://playerManage.gd" id="1_p81vm"]
+[ext_resource type="Texture2D" uid="uid://becidr8s3q4hd" path="res://Epic_GloriousPink_Cam_1_Back-Z.png" id="2_moqyo"]
+[ext_resource type="PackedScene" uid="uid://c2scoiv65exb6" path="res://fullBoat.tscn" id="3_137ad"]
+[ext_resource type="Script" path="res://camFollow.gd" id="5_1qvgb"]
+[ext_resource type="Script" path="res://joy.gd" id="6_ekpjs"]
+[ext_resource type="Texture2D" uid="uid://bmvtjumvom8qv" path="res://2d/ring.png" id="6_q047f"]
+[ext_resource type="Texture2D" uid="uid://c6shseb2yv7f2" path="res://2d/knob.png" id="7_cqx18"]
+[ext_resource type="Script" path="res://Knob.gd" id="8_lh5c8"]
+[ext_resource type="Script" path="res://fpsScren.gd" id="10_sjb43"]
+
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_px0g6"]
+panorama = ExtResource("2_moqyo")
+
+[sub_resource type="Sky" id="Sky_eg7jr"]
+sky_material = SubResource("PanoramaSkyMaterial_px0g6")
+
+[sub_resource type="Environment" id="Environment_tln2t"]
+background_mode = 2
+sky = SubResource("Sky_eg7jr")
+ambient_light_source = 3
+ambient_light_color = Color(0.215686, 0.682353, 0.890196, 1)
+ambient_light_energy = 6.41
+
+[node name="Node3D" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -4.04101, 0)
+
+[node name="playerNode" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.08202, 6.846, 0.458923)
+script = ExtResource("1_p81vm")
+
+[node name="boat" parent="playerNode" instance=ExtResource("3_137ad")]
+
+[node name="poseidon" parent="." instance=ExtResource("1_61vc2")]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_tln2t")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(-0.0201386, -0.0837125, 0.996287, -0.00169179, 0.99649, 0.0836954, -0.999796, 9.31513e-10, -0.0202095, 4.997, 5.936, 0)
+fov = 71.5
+script = ExtResource("5_1qvgb")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="Camera3D"]
+light_energy = 5.8
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer"]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -40.0
+offset_right = 40.0
+grow_vertical = 0
+
+[node name="joy" type="Node2D" parent="CanvasLayer/HBoxContainer"]
+position = Vector2(203.383, -171.692)
+script = ExtResource("6_ekpjs")
+
+[node name="Button" type="Button" parent="CanvasLayer/HBoxContainer/joy"]
+modulate = Color(1, 1, 1, 0)
+offset_left = -69.0
+offset_top = -72.0
+offset_right = 75.0
+offset_bottom = 71.0
+
+[node name="Ring" type="Sprite2D" parent="CanvasLayer/HBoxContainer/joy"]
+position = Vector2(3.00002, 1.52588e-05)
+scale = Vector2(0.296, 0.296)
+texture = ExtResource("6_q047f")
+
+[node name="Knob" type="Sprite2D" parent="CanvasLayer/HBoxContainer/joy"]
+position = Vector2(3, -2.00002)
+scale = Vector2(0.112, 0.112)
+texture = ExtResource("7_cqx18")
+script = ExtResource("8_lh5c8")
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="CanvasLayer"]
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -40.0
+offset_top = -40.0
+grow_horizontal = 0
+grow_vertical = 0
+
+[node name="joy2" type="Node2D" parent="CanvasLayer/HBoxContainer2"]
+position = Vector2(-180.674, -171.692)
+script = ExtResource("6_ekpjs")
+
+[node name="Button" type="Button" parent="CanvasLayer/HBoxContainer2/joy2"]
+modulate = Color(1, 1, 1, 0)
+offset_left = -69.0
+offset_top = -72.0
+offset_right = 75.0
+offset_bottom = 71.0
+
+[node name="Ring" type="Sprite2D" parent="CanvasLayer/HBoxContainer2/joy2"]
+position = Vector2(3.00002, 1.52588e-05)
+scale = Vector2(0.296, 0.296)
+texture = ExtResource("6_q047f")
+
+[node name="Knob" type="Sprite2D" parent="CanvasLayer/HBoxContainer2/joy2"]
+position = Vector2(3, -2.00002)
+scale = Vector2(0.112, 0.112)
+texture = ExtResource("7_cqx18")
+script = ExtResource("8_lh5c8")
+
+[node name="Label" type="Label" parent="CanvasLayer/HBoxContainer2"]
+layout_mode = 2
+script = ExtResource("10_sjb43")
+
+[connection signal="button_down" from="CanvasLayer/HBoxContainer/joy/Button" to="CanvasLayer/HBoxContainer/joy/Knob" method="_on_button_button_down"]
+[connection signal="button_up" from="CanvasLayer/HBoxContainer/joy/Button" to="CanvasLayer/HBoxContainer/joy/Knob" method="_on_button_button_up"]
+[connection signal="button_down" from="CanvasLayer/HBoxContainer2/joy2/Button" to="CanvasLayer/HBoxContainer2/joy2/Knob" method="_on_button_button_down"]
+[connection signal="button_up" from="CanvasLayer/HBoxContainer2/joy2/Button" to="CanvasLayer/HBoxContainer2/joy2/Knob" method="_on_button_button_up"]

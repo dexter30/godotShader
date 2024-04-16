@@ -1,0 +1,888 @@
+[gd_scene load_steps=77 format=3 uid="uid://huikn1070omk"]
+
+[ext_resource type="PackedScene" uid="uid://ccwuw6juuce5y" path="res://seas.tscn" id="1_oci48"]
+[ext_resource type="Material" uid="uid://ckgmegixido3v" path="res://sea.tres" id="3_7jh8w"]
+[ext_resource type="PackedScene" uid="uid://b4oqsgledbpdw" path="res://models/boat/boat.gltf" id="3_akql8"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_v0sab"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 1
+subdivide_depth = 1
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_bxy2u"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 1
+subdivide_depth = 1
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_a32ha"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 99
+subdivide_depth = 99
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_uj15w"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 1
+subdivide_depth = 1
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_ne15t"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 1
+subdivide_depth = 1
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_he843"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 1
+subdivide_depth = 1
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_bwv4a"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 1
+subdivide_depth = 1
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_u10tp"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 1
+subdivide_depth = 1
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_rcd3j"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 1
+subdivide_depth = 1
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_2aft2"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 1
+subdivide_depth = 1
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_dowaj"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 99
+subdivide_depth = 99
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_dfcgb"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 1
+subdivide_depth = 1
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_ybpis"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 1
+subdivide_depth = 1
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_3w00k"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 99
+subdivide_depth = 99
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_n4i7e"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 99
+subdivide_depth = 99
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_n0p8y"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 99
+subdivide_depth = 99
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_1ntdu"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 99
+subdivide_depth = 99
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_ala03"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 99
+subdivide_depth = 99
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_1th6j"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 99
+subdivide_depth = 99
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_gr8by"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 99
+subdivide_depth = 99
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_85hsd"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 99
+subdivide_depth = 99
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_50irm"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 99
+subdivide_depth = 99
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_pykcr"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 1
+subdivide_depth = 1
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_m8g46"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 99
+subdivide_depth = 99
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_kjalc"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 1
+subdivide_depth = 1
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_xmrgh"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 99
+subdivide_depth = 99
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_wvl0v"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 99
+subdivide_depth = 99
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_nvatj"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 1
+subdivide_depth = 1
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_18iae"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 1
+subdivide_depth = 1
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_bsigs"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 99
+subdivide_depth = 99
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_aqgfs"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 99
+subdivide_depth = 99
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_vjxh7"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 1
+subdivide_depth = 1
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_7l1pr"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 1
+subdivide_depth = 1
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_drsxh"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 99
+subdivide_depth = 99
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_mepkg"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 99
+subdivide_depth = 99
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_sjpm8"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 1
+subdivide_depth = 1
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_uj47d"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 1
+subdivide_depth = 1
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_dwr26"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 99
+subdivide_depth = 99
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_at1nu"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 99
+subdivide_depth = 99
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_lg7u8"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 1
+subdivide_depth = 1
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_rp0xl"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 1
+subdivide_depth = 1
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_qca5v"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 99
+subdivide_depth = 99
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_ilbwl"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 99
+subdivide_depth = 99
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_j7khp"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 1
+subdivide_depth = 1
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_7fe4k"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 1
+subdivide_depth = 1
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_6rqxk"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 99
+subdivide_depth = 99
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_nydn8"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 99
+subdivide_depth = 99
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_holnj"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 1
+subdivide_depth = 1
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_5qa2m"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 1
+subdivide_depth = 1
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_p7o68"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 99
+subdivide_depth = 99
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_4bjsa"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 99
+subdivide_depth = 99
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_ob7y3"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 99
+subdivide_depth = 99
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_mg1pc"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 99
+subdivide_depth = 99
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_t2jye"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 99
+subdivide_depth = 99
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_80a3w"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 99
+subdivide_depth = 99
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_srg82"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 99
+subdivide_depth = 99
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_uk86f"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 99
+subdivide_depth = 99
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_vbr7r"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 99
+subdivide_depth = 99
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_qrhpx"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 1
+subdivide_depth = 1
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_vrtnd"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 99
+subdivide_depth = 99
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_je5da"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 1
+subdivide_depth = 1
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_2syab"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 1
+subdivide_depth = 1
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_mbpla"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 99
+subdivide_depth = 99
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_7qube"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 1
+subdivide_depth = 1
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_djwll"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 1
+subdivide_depth = 1
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_mns30"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 1
+subdivide_depth = 1
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_wpxv5"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 1
+subdivide_depth = 1
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_i43eq"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 1
+subdivide_depth = 1
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_1303l"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 1
+subdivide_depth = 1
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_pxmpq"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 1
+subdivide_depth = 1
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_pxfa0"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 99
+subdivide_depth = 99
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_pnxlp"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 1
+subdivide_depth = 1
+orientation = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_dm8f3"]
+resource_local_to_scene = true
+material = ExtResource("3_7jh8w")
+size = Vector2(10.05, 10.05)
+subdivide_width = 199
+subdivide_depth = 199
+orientation = 1
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Node3D" type="Node3D" parent="."]
+
+[node name="Sketchfab_Scene" parent="." instance=ExtResource("3_akql8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.07127, 1.11968, 1.44513)
+
+[node name="MeshInstance3D" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40.2, 0, -40.2)
+mesh = SubResource("QuadMesh_v0sab")
+
+[node name="@MeshInstance3D@61544" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40.2, 0, -30.15)
+mesh = SubResource("QuadMesh_bxy2u")
+
+[node name="@MeshInstance3D@61545" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40.2, 0, -30.15)
+mesh = SubResource("QuadMesh_a32ha")
+
+[node name="@MeshInstance3D@61546" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40.2, 0, -20.1)
+mesh = SubResource("QuadMesh_uj15w")
+
+[node name="@MeshInstance3D@61547" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40.2, 0, -10.05)
+mesh = SubResource("QuadMesh_ne15t")
+
+[node name="@MeshInstance3D@61548" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40.2, 0, 0)
+mesh = SubResource("QuadMesh_he843")
+
+[node name="@MeshInstance3D@61549" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40.2, 0, 10.05)
+mesh = SubResource("QuadMesh_bwv4a")
+
+[node name="@MeshInstance3D@61550" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40.2, 0, 20.1)
+mesh = SubResource("QuadMesh_u10tp")
+
+[node name="@MeshInstance3D@61551" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40.2, 0, 30.15)
+mesh = SubResource("QuadMesh_rcd3j")
+
+[node name="@MeshInstance3D@61552" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40.2, 0, 40.2)
+mesh = SubResource("QuadMesh_2aft2")
+
+[node name="@MeshInstance3D@61553" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40.2, 0, 40.2)
+mesh = SubResource("QuadMesh_dowaj")
+
+[node name="@MeshInstance3D@61554" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40.2, 0, 50.25)
+mesh = SubResource("QuadMesh_dfcgb")
+
+[node name="@MeshInstance3D@61555" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.15, 0, -40.2)
+mesh = SubResource("QuadMesh_ybpis")
+
+[node name="@MeshInstance3D@61556" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.15, 0, -40.2)
+mesh = SubResource("QuadMesh_3w00k")
+
+[node name="@MeshInstance3D@61557" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.15, 0, -30.15)
+mesh = SubResource("QuadMesh_n4i7e")
+
+[node name="@MeshInstance3D@61558" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.15, 0, -20.1)
+mesh = SubResource("QuadMesh_n0p8y")
+
+[node name="@MeshInstance3D@61559" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.15, 0, -10.05)
+mesh = SubResource("QuadMesh_1ntdu")
+
+[node name="@MeshInstance3D@61560" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.15, 0, 0)
+mesh = SubResource("QuadMesh_ala03")
+
+[node name="@MeshInstance3D@61561" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.15, 0, 10.05)
+mesh = SubResource("QuadMesh_1th6j")
+
+[node name="@MeshInstance3D@61562" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.15, 0, 20.1)
+mesh = SubResource("QuadMesh_gr8by")
+
+[node name="@MeshInstance3D@61563" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.15, 0, 30.15)
+mesh = SubResource("QuadMesh_85hsd")
+
+[node name="@MeshInstance3D@61564" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.15, 0, 40.2)
+mesh = SubResource("QuadMesh_50irm")
+
+[node name="@MeshInstance3D@61565" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.15, 0, 50.25)
+mesh = SubResource("QuadMesh_pykcr")
+
+[node name="@MeshInstance3D@61566" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.15, 0, 50.25)
+mesh = SubResource("QuadMesh_m8g46")
+
+[node name="@MeshInstance3D@61567" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.1, 0, -40.2)
+mesh = SubResource("QuadMesh_kjalc")
+
+[node name="@MeshInstance3D@61568" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.1, 0, -30.15)
+mesh = SubResource("QuadMesh_xmrgh")
+
+[node name="@MeshInstance3D@61569" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.1, 0, 40.2)
+mesh = SubResource("QuadMesh_wvl0v")
+
+[node name="@MeshInstance3D@61570" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.1, 0, 50.25)
+mesh = SubResource("QuadMesh_nvatj")
+
+[node name="@MeshInstance3D@61571" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.05, 0, -40.2)
+mesh = SubResource("QuadMesh_18iae")
+
+[node name="@MeshInstance3D@61572" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.05, 0, -30.15)
+mesh = SubResource("QuadMesh_bsigs")
+
+[node name="@MeshInstance3D@61573" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.05, 0, 40.2)
+mesh = SubResource("QuadMesh_aqgfs")
+
+[node name="@MeshInstance3D@61574" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.05, 0, 50.25)
+mesh = SubResource("QuadMesh_vjxh7")
+
+[node name="@MeshInstance3D@61575" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -40.2)
+mesh = SubResource("QuadMesh_7l1pr")
+
+[node name="@MeshInstance3D@61576" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -30.15)
+mesh = SubResource("QuadMesh_drsxh")
+
+[node name="@MeshInstance3D@61577" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 40.2)
+mesh = SubResource("QuadMesh_mepkg")
+
+[node name="@MeshInstance3D@61578" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 50.25)
+mesh = SubResource("QuadMesh_sjpm8")
+
+[node name="@MeshInstance3D@61579" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.05, 0, -40.2)
+mesh = SubResource("QuadMesh_uj47d")
+
+[node name="@MeshInstance3D@61580" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.05, 0, -30.15)
+mesh = SubResource("QuadMesh_dwr26")
+
+[node name="@MeshInstance3D@61581" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.05, 0, 40.2)
+mesh = SubResource("QuadMesh_at1nu")
+
+[node name="@MeshInstance3D@61582" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.05, 0, 50.25)
+mesh = SubResource("QuadMesh_lg7u8")
+
+[node name="@MeshInstance3D@61583" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.1, 0, -40.2)
+mesh = SubResource("QuadMesh_rp0xl")
+
+[node name="@MeshInstance3D@61584" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.1, 0, -30.15)
+mesh = SubResource("QuadMesh_qca5v")
+
+[node name="@MeshInstance3D@61585" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.1, 0, 40.2)
+mesh = SubResource("QuadMesh_ilbwl")
+
+[node name="@MeshInstance3D@61586" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.1, 0, 50.25)
+mesh = SubResource("QuadMesh_j7khp")
+
+[node name="@MeshInstance3D@61587" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30.15, 0, -40.2)
+mesh = SubResource("QuadMesh_7fe4k")
+
+[node name="@MeshInstance3D@61588" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30.15, 0, -30.15)
+mesh = SubResource("QuadMesh_6rqxk")
+
+[node name="@MeshInstance3D@61589" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30.15, 0, 40.2)
+mesh = SubResource("QuadMesh_nydn8")
+
+[node name="@MeshInstance3D@61590" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30.15, 0, 50.25)
+mesh = SubResource("QuadMesh_holnj")
+
+[node name="@MeshInstance3D@61591" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.2, 0, -40.2)
+mesh = SubResource("QuadMesh_5qa2m")
+
+[node name="@MeshInstance3D@61592" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.2, 0, -40.2)
+mesh = SubResource("QuadMesh_p7o68")
+
+[node name="@MeshInstance3D@61593" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.2, 0, -30.15)
+mesh = SubResource("QuadMesh_4bjsa")
+
+[node name="@MeshInstance3D@61594" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.2, 0, -20.1)
+mesh = SubResource("QuadMesh_ob7y3")
+
+[node name="@MeshInstance3D@61595" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.2, 0, -10.05)
+mesh = SubResource("QuadMesh_mg1pc")
+
+[node name="@MeshInstance3D@61596" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.2, 0, 0)
+mesh = SubResource("QuadMesh_t2jye")
+
+[node name="@MeshInstance3D@61597" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.2, 0, 10.05)
+mesh = SubResource("QuadMesh_80a3w")
+
+[node name="@MeshInstance3D@61598" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.2, 0, 20.1)
+mesh = SubResource("QuadMesh_srg82")
+
+[node name="@MeshInstance3D@61599" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.2, 0, 30.15)
+mesh = SubResource("QuadMesh_uk86f")
+
+[node name="@MeshInstance3D@61600" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.2, 0, 40.2)
+mesh = SubResource("QuadMesh_vbr7r")
+
+[node name="@MeshInstance3D@61601" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.2, 0, 50.25)
+mesh = SubResource("QuadMesh_qrhpx")
+
+[node name="@MeshInstance3D@61602" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.2, 0, 50.25)
+mesh = SubResource("QuadMesh_vrtnd")
+
+[node name="@MeshInstance3D@61603" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.25, 0, -40.2)
+mesh = SubResource("QuadMesh_je5da")
+
+[node name="@MeshInstance3D@61604" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.25, 0, -30.15)
+mesh = SubResource("QuadMesh_2syab")
+
+[node name="@MeshInstance3D@61605" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.25, 0, -30.15)
+mesh = SubResource("QuadMesh_mbpla")
+
+[node name="@MeshInstance3D@61606" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.25, 0, -20.1)
+mesh = SubResource("QuadMesh_7qube")
+
+[node name="@MeshInstance3D@61607" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.25, 0, -10.05)
+mesh = SubResource("QuadMesh_djwll")
+
+[node name="@MeshInstance3D@61608" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.25, 0, 0)
+mesh = SubResource("QuadMesh_mns30")
+
+[node name="@MeshInstance3D@61609" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.25, 0, 10.05)
+mesh = SubResource("QuadMesh_wpxv5")
+
+[node name="@MeshInstance3D@61610" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.25, 0, 20.1)
+mesh = SubResource("QuadMesh_i43eq")
+
+[node name="@MeshInstance3D@61611" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.25, 0, 30.15)
+mesh = SubResource("QuadMesh_1303l")
+
+[node name="@MeshInstance3D@61612" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.25, 0, 40.2)
+mesh = SubResource("QuadMesh_pxmpq")
+
+[node name="@MeshInstance3D@61613" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.25, 0, 40.2)
+mesh = SubResource("QuadMesh_pxfa0")
+
+[node name="@MeshInstance3D@61614" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.25, 0, 50.25)
+mesh = SubResource("QuadMesh_pnxlp")
+
+[node name="@MeshInstance3D@61615" parent="." instance=ExtResource("1_oci48")]
+transform = Transform3D(6, 0, 0, 0, 1, 0, 0, 0, 6, 5.025, 0, 5.025)
+mesh = SubResource("QuadMesh_dm8f3")

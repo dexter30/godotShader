@@ -1,0 +1,75 @@
+[gd_scene load_steps=4 format=3 uid="uid://c2scoiv65exb6"]
+
+[ext_resource type="Script" path="res://boatphys.gd" id="1_isc55"]
+[ext_resource type="PackedScene" uid="uid://b4oqsgledbpdw" path="res://models/boat/boat.gltf" id="2_n1hbl"]
+[ext_resource type="PackedScene" uid="uid://bxkasus7xlme2" path="res://models/houshou_marine_hololive/marine.gltf" id="3_cvwx6"]
+
+[node name="Node3D" type="RigidBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.312349, 0)
+mass = 10.0
+inertia = Vector3(5, 5, 5)
+script = ExtResource("1_isc55")
+float_force = 1.4
+
+[node name="boat" parent="." instance=ExtResource("2_n1hbl")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -0.831904, 1.08427, -0.478124)
+
+[node name="marine" parent="boat" instance=ExtResource("3_cvwx6")]
+transform = Transform3D(-0.44006, 0, -0.46106, 0, 0.637361, 0, 0.46106, 0, -0.44006, 0, 0, -0.501808)
+
+[node name="probeContainer" type="Node3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0.18033, -0.516551, -0.510367)
+
+[node name="Probe2" type="Marker3D" parent="probeContainer"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.7, 0.782, 0.665)
+
+[node name="Probe3" type="Marker3D" parent="probeContainer"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.694721, 0.779372, 0.664958)
+
+[node name="Probe4" type="Marker3D" parent="probeContainer"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.695, 0.779, -0.316)
+
+[node name="Probe6" type="Marker3D" parent="probeContainer"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.69114, 0.566077, 0.664958)
+
+[node name="Probe9" type="Marker3D" parent="probeContainer"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.348684, 0.779372, 0.664958)
+
+[node name="Probe10" type="Marker3D" parent="probeContainer"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.348684, 0.566077, 0.664958)
+
+[node name="Probe11" type="Marker3D" parent="probeContainer"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.348684, 0.779372, -0.303238)
+
+[node name="Probe12" type="Marker3D" parent="probeContainer"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.348684, 0.566077, -0.303238)
+
+[node name="Probe13" type="Marker3D" parent="probeContainer"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.348684, 0.779372, 0.225862)
+
+[node name="Probe14" type="Marker3D" parent="probeContainer"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.348684, 0.566077, 0.225862)
+
+[node name="Probe15" type="Marker3D" parent="probeContainer"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.671673, 0.779372, 0.225862)
+
+[node name="Probe16" type="Marker3D" parent="probeContainer"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.671673, 0.566077, 0.225862)
+
+[node name="Probe17" type="Marker3D" parent="probeContainer"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.71614, 0.779372, 0.225862)
+
+[node name="Probe18" type="Marker3D" parent="probeContainer"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.71614, 0.566077, 0.225862)
+
+[node name="Probe19" type="Marker3D" parent="probeContainer"]
+transform = Transform3D(1, 0, 3.55271e-15, 0, 1, 0, -3.55271e-15, 0, 1, 1.71614, 0.779372, -0.374284)
+
+[node name="Probe20" type="Marker3D" parent="probeContainer"]
+transform = Transform3D(1, 0, 3.55271e-15, 0, 1, 0, -3.55271e-15, 0, 1, 1.71614, 0.566077, -0.374284)
+
+[node name="Probe7" type="Marker3D" parent="probeContainer"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.694721, 0.566077, 0.664958)
+
+[node name="Probe8" type="Marker3D" parent="probeContainer"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.695, 0.565704, -0.316)
